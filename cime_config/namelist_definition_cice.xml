@@ -221,6 +221,48 @@
     </values>
   </entry>
 
+  <entry id="month_init">
+    <type>integer</type>
+    <category>setup</category>
+    <group>setup_nml</group>
+    <desc>
+      Initial month.
+    </desc>
+    <values>
+      <value>1</value>
+      <value cice_mode="prescribed">1</value>
+    </values>
+  </entry>
+
+  <entry id="day_init">
+    <type>integer</type>
+    <category>setup</category>
+    <group>setup_nml</group>
+    <desc>
+      Initial day.
+    </desc>
+    <values>
+      <value>1</value>
+      <value cice_mode="prescribed">1</value>
+    </values>
+  </entry>
+
+  <entry id="sec_init">
+    <type>integer</type>
+    <category>setup</category>
+    <group>setup_nml</group>
+    <desc>
+      Initial year.
+    </desc>
+    <values>
+      <value>1</value>
+      <value cice_mode="prescribed">0</value>
+    </values>
+  </entry>
+
+
+
+
   <entry id="ndtd">
     <type>integer</type>
     <category>setup</category>
