@@ -1861,6 +1861,24 @@
     </values>
   </entry>
 
+  <entry id="r_snw_sh">
+    <type>real</type>
+    <category>swrad</category>
+    <group>shortwave_nml</group>
+    <desc>
+      r_snw for the Southern Hemisphere
+    </desc>
+    <values>
+      <value> 1.25 </value>
+      <value hgrid='gx3v7'> -2.00 </value>
+      <value hgrid="ar9v3"> -1.00 </value>
+      <value hgrid="ar9v4"> -1.00 </value>
+      <value cam4='.true.'>  1.50 </value>
+      <value cam5='.true.'>  1.75 </value>
+      <value hgrid="tn1v3">  1.50 </value>
+    </values>
+  </entry>
+
   <entry id="dt_mlt">
     <type>real</type>
     <category>swrad</category>
@@ -1892,6 +1910,24 @@
       <value hgrid="ar9v4"> 1000. </value>
       <value cam4='.true.'> 1500. </value>
       <value cam5='.true.'> 1000. </value>
+    </values>
+  </entry>
+
+  <entry id="rsnw_mlt_sh">
+    <type>real</type>
+    <category>swrad</category>
+    <group>shortwave_nml</group>
+    <desc>
+      rsnw_mlt for the Southern Hemisphere
+    </desc>
+    <values>
+      <value> 1500. </value>
+      <value hgrid='gx3v7'> 2000. </value>
+      <value hgrid="ar9v3"> 1000. </value>
+      <value hgrid="ar9v4"> 1000. </value>
+      <value cam4='.true.'> 1500. </value>
+      <value cam5='.true.'> 1000. </value>
+      <value hgrid="tn1v3"> 1000. </value>
     </values>
   </entry>
 
